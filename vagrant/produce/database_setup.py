@@ -24,3 +24,4 @@ class ProduceItem(Base):
 	description = Column(String(250))
 	price = Column(String(8))
 	type = Column(String(20))
+	produce_id
