@@ -13,4 +13,4 @@ class Produce(Base):
 	__tablename__ = 'produce'
 	
 	id = Column(Integer, primary_key=True)
-	name
+	name = Column(String(250), nullable=False)
