@@ -20,3 +20,4 @@ class ProduceItem(Base):
 	__tablename__ = 'produce_item'
 	
 	name = (String(80), nullable = False)
+	id
