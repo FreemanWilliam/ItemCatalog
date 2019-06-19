@@ -11,3 +11,5 @@ Base = declarative_base()
 class Produce(Base):
 
 	__tablename__ = 'produce'
+	
+	id
