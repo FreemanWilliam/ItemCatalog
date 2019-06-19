@@ -12,4 +12,4 @@ class Produce(Base):
 
 	__tablename__ = 'produce'
 	
-	id
+	id = Column(Integer, primary_key=True)
