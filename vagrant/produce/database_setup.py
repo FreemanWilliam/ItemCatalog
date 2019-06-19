@@ -1,3 +1,4 @@
 import os
 import sys
-import sqlalchemy import Column, ForeignKey, Integer, String 
+from sqlalchemy import Column, ForeignKey, Integer, String 
+
