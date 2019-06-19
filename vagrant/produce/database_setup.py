@@ -18,3 +18,5 @@ class Produce(Base):
 class ProduceItem(Base):
 
 	__tablename__ = 'produce_item'
+	
+	name
