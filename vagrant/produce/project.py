@@ -22,7 +22,7 @@ def Produce():
 	for i in items:
 		output += i.name
 		output += '</br>'
-	return "Hello World!!"
+	return output
 
 if __name__ == '__main__':
 	app.debug = True
