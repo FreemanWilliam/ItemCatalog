@@ -19,7 +19,8 @@ def Produce():
 	produce = session.query(Produce).first()
 	items = session.query(ProduceItem).filter_by(produce_id = produce.id)
 	output = ''
-	for i in items
+	for i in items:
+		output += i.name
 	return "Hello World!!"
 
 if __name__ == '__main__':
