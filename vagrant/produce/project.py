@@ -15,6 +15,8 @@ session = DBSession()
 @app.route('/')
 @app.route('/produce')
 def Produce():
+
+	produce = session.query(Produce).first()
 	return "Hello World!!"
 
 if __name__ == '__main__':
