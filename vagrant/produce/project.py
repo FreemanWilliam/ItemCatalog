@@ -6,6 +6,7 @@ from sqlalchemy.orm import sessionmaker
 from database_setup import Base, Produce, ProduceItem
 
 engine = create_engine('sqlite:///producemenu.db')
+Base.metadata.bind = engine
 
 
 @app.route('/')
