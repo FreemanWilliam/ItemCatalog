@@ -8,6 +8,8 @@ from database_setup import Base, Produce, ProduceItem
 engine = create_engine('sqlite:///producemenu.db')
 Base.metadata.bind = engine
 
+DBSession = sessionmaker(bind=engine)
+
 
 @app.route('/')
 @app.route('/produce')
