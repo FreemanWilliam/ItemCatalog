@@ -17,7 +17,7 @@ session = DBSession()
 def Produce():
 
 	produce = session.query(Produce).first()
-	items = session.query(ProduceItem)filter_by(produce_id = produce.id)
+	items = session.query(ProduceItem).filter_by(produce_id = produce.id)
 	return "Hello World!!"
 
 if __name__ == '__main__':
