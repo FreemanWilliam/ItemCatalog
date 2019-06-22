@@ -5,6 +5,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from database_setup import Base, Produce, ProduceItem
 
+engine = create_engine('sqlite:///producemenu.db')
+
 
 @app.route('/')
 @app.route('/produce')
