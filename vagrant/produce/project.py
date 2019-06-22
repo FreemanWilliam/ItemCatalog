@@ -9,6 +9,7 @@ engine = create_engine('sqlite:///producemenu.db')
 Base.metadata.bind = engine
 
 DBSession = sessionmaker(bind=engine)
+session = DBSession()
 
 
 @app.route('/')
