@@ -20,7 +20,7 @@ def Produce():
 	
 	
 	
-		output += i.name
+		
 		output += '</br>'
 	return output
 
