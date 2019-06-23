@@ -22,7 +22,7 @@ def Produce():
 	
 		
 		
-	return output
+	return ""
 
 if __name__ == '__main__':
 	app.debug = True
