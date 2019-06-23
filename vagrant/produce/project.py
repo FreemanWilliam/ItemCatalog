@@ -19,7 +19,7 @@ def Produce():
 	
 	
 	
-	for i in items:
+	
 		output += i.name
 		output += '</br>'
 	return output
