@@ -17,7 +17,7 @@ session = DBSession()
 def Produce():
 
 	
-	items = session.query(ProduceItem).filter_by(produce_id = produce.id)
+	
 	output = ''
 	for i in items:
 		output += i.name
